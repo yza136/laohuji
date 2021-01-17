@@ -1,0 +1,277 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="referrer" content="no-referrer" />
+    <title>game1</title>
+    <style type="text/css">
+      .subject-pop {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+      .subject-pop-mask {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.8);
+      }
+      .subject-pop-box {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        background: #f3f3f3;
+        border-radius: 0.4rem;
+        z-index: 2;
+        width: 80%;
+        max-width: 400px;
+      }
+      a {
+        text-decoration: none;
+      }
+      .subject-pop-box h3 {
+        font-size: 1.2rem;
+        color: #4a4a4a;
+        text-align: center;
+        line-height: 1;
+        margin-top: 1.15rem;
+        font-weight: 700;
+      }
+      .subject-pop-box p {
+        text-align: center;
+        padding: 0.5rem 0;
+      }
+      img {
+        vertical-align: top;
+      }
+      .subject-pop-box h4 {
+        font-size: 0.8rem;
+        color: #4a4a4a;
+        text-align: center;
+        line-height: 1.3rem;
+      }
+      .subject-pop-box h4 span {
+        font-weight: 700;
+      }
+      .subject-pop-footer {
+        background: #fff;
+        padding: 0.95rem 2rem;
+        font-size: 0;
+      }
+      .subject-pop-footer a {
+        display: inline-block;
+        width: 100%;
+        margin-right: 4%;
+        font-size: 0.7rem;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        border-radius: 1.8rem;
+        height: 1.8rem;
+        line-height: 1.8rem;
+        text-align: center;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        vertical-align: middle;
+      }
+      .november-btn1 {
+        border: 2px solid #f67f6e;
+        color: #f67f6e;
+      }
+    </style>
+    <style type="text/css">
+      .main {
+        width: 17.575rem;
+        margin: 0 auto;
+      }
+      ol,
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .recreation {
+        position: relative;
+        height: 14.925rem;
+        background: url(//images.cnblogs.com/cnblogs_com/codeon/878827/o_autohomedealer__ChsEnlwi3_GACO2wAACxIjply_8570.jpg)
+          top;
+        background-size: 100% 100%;
+      }
+      .recreation-list {
+        width: 12.025rem;
+        height: 4.15rem;
+        overflow: hidden;
+        position: absolute;
+        top: 5.375rem;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+      }
+      .recreation-item {
+        float: left;
+        width: 3.675rem;
+        height: 100%;
+        margin-right: 0.5rem;
+      }
+      .recreation-item:last-child {
+        margin-right: 0;
+      }
+      .recreation-prices {
+        position: relative;
+        height: 100%;
+        width: 100%;
+      }
+      .recreation-prices img {
+        max-width: 90%;
+        max-height: 90%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
+      .clearfix:after,
+      .clearfix:before {
+        content: '';
+        display: table;
+      }
+      .btn-recreation {
+        position: absolute;
+        width: 12.8rem;
+        height: 3.2rem;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 10.325rem;
+        background-size: 100% 100%;
+        background-image: url(//images.cnblogs.com/cnblogs_com/codeon/878827/o_lotterybtn.jpg);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <section>
+        <div style="width: 100%; text-align: center; margin: 2rem 0px;">
+          您有一次抽奖机会，祝君好运~~~
+        </div>
+        <section>
+          <div class="main">
+            <div class="recreation">
+              <div class="recreation-list clearfix">
+                <ul
+                  class="recreation-item"
+                  style="transform: translateY(-12.45rem);"
+                >
+                  <li class="recreation-prices">
+                    <img
+                      src="https://i1.mifile.cn/f/i/g/2015/cn-index/m8-140.png"
+                      alt=""
+                    />
+                  </li>
+                  <li class="recreation-prices">
+                    <img
+                      src="https://i1.mifile.cn/f/i/g/2015/TV4A-43QC.png"
+                      alt=""
+                    />
+                  </li>
+                  <li class="recreation-prices">
+                    <img
+                      src="https://i1.mifile.cn/f/i/g/2015/cn-index/scooter-140!140x140.jpg"
+                      alt=""
+                    />
+                  </li>
+                  <li class="recreation-prices">
+                    <img
+                      src="https://c1.mifile.cn/f/i/g/2015/video/pinpai140!140x140.jpg"
+                      alt=""
+                    />
+                  </li>
+                </ul>
+                <ul
+                  class="recreation-item"
+                  style="transform: translateY(-12.45rem);"
+                >
+                  <li class="recreation-prices">
+                    <img
+                      src="https://i1.mifile.cn/f/i/g/2015/cn-index/m8-140.png"
+                      alt=""
+                    />
+                  </li>
+                  <li class="recreation-prices">
+                    <img
+                      src="https://i1.mifile.cn/f/i/g/2015/TV4A-43QC.png"
+                      alt=""
+                    />
+                  </li>
+                  <li class="recreation-prices">
+                    <img
+                      src="https://i1.mifile.cn/f/i/g/2015/cn-index/scooter-140!140x140.jpg"
+                      alt=""
+                    />
+                  </li>
+                  <li class="recreation-prices">
+                    <img
+                      src="https://c1.mifile.cn/f/i/g/2015/video/pinpai140!140x140.jpg"
+                      alt=""
+                    />
+                  </li>
+                </ul>
+                <ul
+                  class="recreation-item"
+                  style="transform: translateY(-12.45rem);"
+                >
+                  <li class="recreation-prices">
+                    <img
+                      src="https://i1.mifile.cn/f/i/g/2015/cn-index/m8-140.png"
+                      alt=""
+                    />
+                  </li>
+                  <li class="recreation-prices">
+                    <img
+                      src="https://i1.mifile.cn/f/i/g/2015/TV4A-43QC.png"
+                      alt=""
+                    />
+                  </li>
+                  <li class="recreation-prices">
+                    <img
+                      src="https://i1.mifile.cn/f/i/g/2015/cn-index/scooter-140!140x140.jpg"
+                      alt=""
+                    />
+                  </li>
+                  <li class="recreation-prices">
+                    <img
+                      src="https://c1.mifile.cn/f/i/g/2015/video/pinpai140!140x140.jpg"
+                      alt=""
+                    />
+                  </li>
+                </ul>
+              </div>
+              <a href="javascript:;" class="btn-recreation"></a>
+            </div>
+            <div class="subject-pop" style="z-index: 10;">
+              <div class="subject-pop-mask"></div>
+              <div class="subject-pop-box">
+                <h3>恭喜您</h3>
+                <p>
+                  <img
+                    src="https://c1.mifile.cn/f/i/g/2015/video/pinpai140!140x140.jpg"
+                    alt=""
+                  />
+                </p>
+                <h4>获得 <span></span><span>小米耳机</span></h4>
+                <div class="subject-pop-footer">
+                  <a href="javascript:;" class="november-btn1">知道了</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+    </div>
+  </body>
+</html>
